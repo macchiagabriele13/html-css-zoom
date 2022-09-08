@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+main {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+
+main .grid {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: 0.25rem;
+    row-gap: 0.75rem;
+}
+
+img.profile{
+    position:relative
+}
+
+.blocco_immagine{
+    height: 100%;
+    position: relative;
+}
+
+.info{
+    background-color: rgba(220, 220, 220, 0.523);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0.2rem;
+    display: flex;
+
+}
+
+#white{
+    color: white;
+    font-size: 0.50rem;
+}
