@@ -60,3 +60,40 @@ img.profile{
     color: white;
     font-size: 0.50rem;
 }
+
+/* Seconda sezione main */
+
+.call_view{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.call_view span{
+    background-color:  rgba(220, 220, 220, 0.523);
+    border-radius: 2px;
+    color: white;
+    font-size: 0.4rem;
+    }
+.first{
+    padding: 2px 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.chess{
+    padding: 3px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.actual_view{
+    float: right;
+    padding-left: 5px;
+    font-weight: 300;
+}
