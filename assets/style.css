@@ -144,13 +144,11 @@ h5{
 
 .blocco_centrale{
     position: absolute;
-    bottom: 0;
     left: 50%;
 }
 
 .blocco_destro{
     position: absolute;
-    bottom: 0;
     right: 0;
 }
 
