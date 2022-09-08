@@ -117,3 +117,44 @@ img.profile{
     left: 0;
 
 }
+
+
+
+.center{
+    align-items: center;
+}
+
+.icona{
+    text-align: center;
+    padding: 5px;
+}
+.icona i{
+    color: white;
+}
+
+h5{
+    color: white;
+    font-size: 10px;
+}
+
+.freccia{
+    font-size: 8px;
+    padding: 0;
+}
+
+.blocco_centrale{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.blocco_destro{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fascia{
+    position: relative;
+    height: 100%;
+}
