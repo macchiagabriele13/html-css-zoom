@@ -109,7 +109,7 @@ img.profile{
 /* footer */
 
 .barra{
-    background-color: blue;
+    background-color: rgba(75, 75, 75, 0.381);
     height: 50px;
     width: 100%;
     position: absolute;
@@ -127,6 +127,7 @@ img.profile{
 .icona{
     text-align: center;
     padding: 5px;
+    font-size: 15px;
 }
 
 .left{
@@ -138,7 +139,7 @@ img.profile{
 
 h5{
     color: white;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .freccia{
@@ -173,4 +174,8 @@ h5{
 .button:hover {
     background-color: rgba(212, 3, 3, 0.873);
     cursor: pointer;
+}
+
+.icona .green{
+    color: green;
 }
